@@ -2,10 +2,38 @@ h1{
   margin: auto;
   color: blue;
   text-align: center;
-  font-size: 5vw;
+  font-size: 8vw;
 }
 
 h2{
   margin: auto;
   text-align: center;
+}
+
+p{
+	color: black;
+}
+
+#barca{
+	border: 5px solid black;
+	border-radius: 5%;
+	width: 50%;
+}
+
+#soccerBall{
+	width: 50%;
+	
+}
+
+.imageLinks{
+	color: blue;
+}
+
+.imageLinks:hover{
+		color: red;
+		
+}
+
+.imageLinks:active{
+	color: gold;
 }
