@@ -3,35 +3,44 @@ h1{
   color: blue;
   text-align: center;
   font-size: 8vw;
+  font-family: "Courier New";
 }
 
 h2{
   margin: auto;
   text-align: center;
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
 p{
 	color: black;
+	font-weight: bold;
+	font-family: "Papyrus";
 }
 
 #barca{
 	border: 5px solid black;
 	border-radius: 5%;
-	width: 50%;
+	width: 20%;
 }
 
 #soccerBall{
-	width: 50%;
-	
+	width: 20%;
+}
+
+#soccerBall:hover{
+		border: 5px solid black;
+	border-radius: 5%;
 }
 
 .imageLinks{
 	color: blue;
+	font-family: "Arial";
 }
 
 .imageLinks:hover{
-		color: red;
-		
+	color: red;
 }
 
 .imageLinks:active{
